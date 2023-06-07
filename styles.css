@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Manrope:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope";
+    font-family: "Fraunces";
+}
+:root{
+    --purple:#24053E;
+    --green: #44FFA1;
+    --grey: #584D62;
+    --gw:#FCF8FF;
+    --white:#FFFFFF;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 375px;
+    height: 2406px;
+    background-color: var(--white);
+    text-align: center;
+}
+.header{
+    width: 100%;
+    height: 481.71px;
+    background-color: var(--purple);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 50% 5%;
+    border-bottom-right-radius: 50% 5%;
+
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 15.3px ;
+}
+h3{
+    font-family: "Manrope";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -0.16px;
+}
+.start{
+    color: var(--white);
+    border-bottom: 3px solid var(--green);
+
+}
+.start:hover{
+    color: var(--green);
+}
+.header3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-family: "Fraunces";
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 50px;
+    text-align: center;
+    color: var(--white);
+    margin: 32px 16px 40px;
+}
+span{
+    border-bottom: 3px solid var(--green);
+}
+.button{
+    width: 133px;
+    height: 55px;
+    background-color: var(--green);
+    border: 2px solid var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button:hover{
+    background-color: var(--purple);
+    color: var(--green);
+
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 16px;
+    width: 375px;
+    height: 1000px;
+    background-color: var(--gw);
+    border-bottom-left-radius: 50% 5%;
+    border-bottom-right-radius: 50% 5%;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.circle{
+    width: 48px;
+    height: 48px;
+    border-radius: 30.5px;
+    border: 1px solid var(--grey);
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number{
+    font-family: "Fraunces";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+}
+.mobile1{
+    position: relative;
+    margin-top: -98px;
+}
+.mobile2{
+    display: none;
+}
+.mobile3{
+    display: none;
+}
+.title{
+    font-family: "Fraunces";
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: var(--purple);
+    margin: 24px 0 16px;
+}
+
+.about{
+    font-family: "Manrope";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--grey);
+}
+.img-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.last-div{
+    width: 343px;
+    height: 375px;
+    background-color: var(--purple);
+    padding: 32px 31px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -52px;
+    
+}
+.last-title{
+    font-family: "Fraunces";
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--white);
+}
+.about2{
+    color: var(--white);
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.img2{
+    margin-top: 100px;
+}
+.img4{
+    display: none;
+}
+.footer{
+    width: 100%;
+    height: 102px;
+}
+.button2{
+    width: 172px;
+    height: 55px;
+}
+.icons{
+    margin-top: 60px;
+    gap: 28px;
+    display: flex;
+    justify-content: center;
+}
+.circles1, .circles2{
+    display: none;
+}
+@media screen and (min-width: 700px){
+    .container{
+        width: 768px;
+        height: 2254px;
+        background-color: var(--white);
+    }
+    .header{
+        width: 100%;
+        height: 540px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .circles1{
+        display: block;
+        position: absolute;
+        top: 16px;
+       
+    }
+    .circles2{
+        display: block;
+        position: absolute;
+        top: 250px;
+        right: 0;
+    }
+    .header2{
+        margin: 0 24px;
+    }
+    .header3{
+        width: 573px;
+        height: 215px;
+        margin: 12px 97px;
+        
+    }
+    h1{
+        width: 600px;
+        font-size: 60px;
+        line-height: 65px;
+    }
+    .button{
+        width: 133px;
+        height: 55px;
+    }
+    .mobile1{
+        display: none;
+    }
+    .mobile3{
+        display: none;
+    }
+    .mobile2{
+        display: block;
+        position: relative;
+        top: -350px;
+    }
+    .middle{
+        width: 768px;
+        height: 920px;
+        background-color: var(--gw);
+    }
+    .boxs{
+        margin-top: -280px;
+    }
+    .box1{
+       width: 573px;
+       height: 108px;
+       margin: 40px 98px;
+       display: grid;
+       grid-template-columns: auto auto;
+       column-gap: 32px;
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .about{
+        text-align: start;
+    }
+    .img-div{
+        margin-top: -92px;
+    }
+    .last-div{
+        width: 514px;
+        height: 375px;
+        position: relative;
+        z-index: 1;
+        align-items: start;
+        right: -70px;
+        background-image: url(assets/Group\ 10\ Copy.svg);
+        background-repeat: no-repeat;
+        background-position: 200px 219px;
+        
+        
+    }
+    .last-title{
+        width: 600px;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: start;
+    }
+    .img4{
+        display: none;
+    }
+    .img2{
+        position: relative;
+        right: 222px;
+        top: 74px;
+        
+    }
+    @media screen and (min-width: 1400px){
+        .container{
+            width: 1440px;
+            height: 2494px;
+            border: 2px solid black;
+            overflow: hidden;
+        }
+        
+        .header2{
+            padding: 57px 165px;
+        }
+        .header{
+            width: 100%;
+            height: 730px;
+        }
+        .start{
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 32px;
+            letter-spacing: -0.18px;
+        }
+        .header3{
+            margin: -46px 400px;
+            width: 635px;
+            height: 160px;
+        }
+        .circles1{
+            position: absolute;
+            top: 174px;
+            left: -115px;
+        }
+        h1{
+            font-size: 80px;
+            line-height: 80px;
+        }
+        .mobile2{
+            display: none;
+        }
+        .mobile3{
+            display: block;
+            position: relative;
+            top: -450px;
+        }
+        .button{
+            width: 161px;
+            height: 61px;
+
+        }
+        .middle{
+            width: 1440px;
+            height: 760px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .boxs{
+            display: flex;
+            padding-left: 400px;
+            
+        }
+        .box1{
+            display: flex;
+            margin-left: -270px;
+            gap: 30px;
+        }
+        
+        .title{
+            text-align: center;
+        }
+        .text{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        .about{
+            width: 354px;
+            height: 128px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 32px;
+            text-align: center;
+        }
+        .img2{
+            display: none;
+        }
+        .img4{
+            display: block;
+            position: relative;
+            left: -280px;
+            top: 200px;
+            
+            
+        }
+        .last-div{
+            width: 730px;
+            height: 413px;
+            margin-left: 265px;
+            background-position: 400px 220px;
+            padding: 64px;
+        }
+        .last-title{
+            font-weight: 600;
+            font-size: 56px;
+            line-height: 64px;
+        }
+        .about2{
+            text-align: start;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 32px;
+
+        }
+        
+        
+
+    }
+        
+    
+    
+    
+    
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
