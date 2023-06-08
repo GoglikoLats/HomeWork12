@@ -313,7 +313,6 @@ span{
         .container{
             width: 1440px;
             height: 2494px;
-            border: 2px solid black;
             overflow: hidden;
         }
         
@@ -349,8 +348,10 @@ span{
         }
         .mobile3{
             display: block;
-            position: relative;
-            top: -450px;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            top: 33%;
         }
         .button{
             width: 161px;
@@ -363,10 +364,12 @@ span{
             display: flex;
             justify-content: center;
             align-items: center;
+            
         }
         .boxs{
             display: flex;
             padding-left: 400px;
+            margin-top: 50px;
             
         }
         .box1{
